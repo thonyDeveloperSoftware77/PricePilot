@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ygfCQdwI4QlNBDG9a5v/6LtoikUO0+gMib3e8lkpwKmoCRRSVTjWBWbA2NXsDrTUWe7r+yfZQQdVK39M0hS3aA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\antho\\source\\repos\\PricePilot\\PricePilot\\PricePilot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\antho\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
+  ],
+  "logs": []
+}

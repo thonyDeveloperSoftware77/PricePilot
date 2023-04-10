@@ -1,0 +1,240 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #1C2333;
+    color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/*STYLES*/
+.containerUpNav {
+    display: flex;
+    flex-direction: row;
+    background-color: #1C2333;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.containerUpNav div {
+    align-items: center;
+    display: flex;
+}
+
+.containerUpNav a {
+    padding-left: 50px;
+}
+
+.containerUpNav img {
+    width: 120px;
+}
+
+.containerUpNav a img {
+    width: 30px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #0E1628;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.navbar div {
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.navbar a {
+    padding-left: 50px;
+}
+
+.navbar img {
+    width: 25px;
+}
+
+.containerSearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+input {
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+
+/*FOR SLIDER*/
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+/*PARA CONTAINER CSS GRID*/
+/*
+.grid-container {
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows:28rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr))
+}
+
+.grid-container img {
+    width: 180px;
+    height:230px;
+}
+.grid-item {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+}
+    */
+.grid-container {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    background-color: #0E1628;
+}
+
+.grid-container * {
+    box-sizing: border-box;
+}
+
+.grid-container div {
+    width: 200px;
+}
+
+.grid-item p {
+    font-size: 13px;
+}
+
+.grid-item img {
+    margin-top:10px;
+    width: 70%;
+    height: 80%;
+}
+
+.grid-item a {
+    font-size: 14px;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10px;
+    /* Created with https://www.css-gradient.com */
+    background: #010101;
+    background: -webkit-radial-gradient(top left, #4180ff, #0b187e);
+    background: -moz-radial-gradient(top left, #010101, #081891);
+    background: radial-gradient(to bottom right, #010101, #152BDD);
+    border-radius: 5px;
+    align-items:center;
+    align-content:center;
+}
+
+.grid-item div:nth-child(4) {
+    margin-top:5px;
+    margin-bottom: 5px;
+    width: 120px;
+    background-color: #4180ff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/*codigo para eliminar el scroll horizontal*/
+.grid-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.containerNotFound{
+    width:100%;
+    text-align:center;
+}
